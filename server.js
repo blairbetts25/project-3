@@ -91,6 +91,11 @@ app.use(morgan('dev'));
 app.use(routes);
 
 // catch all handler
+//connect to GREGS MONGO DB for Heroku
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true
+})
+
 
 mongoose.connection.once("open", () => {
 
