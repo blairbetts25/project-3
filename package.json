@@ -13,7 +13,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.16.3",
     "if-env": "^1.0.4",
-    "file-type": "^12.0.1",
+    "file-type": "^16.5.4",
     "fs": "0.0.1-security",
     "moment-timezone": "^0.5.26",
     "mongoose": "^5.3.16",
